@@ -31,7 +31,7 @@ import org.lineageos.platform.internal.R;
 public class LineageVersionTextView extends TextView implements View.OnClickListener {
     private static final String TAG = "LineageVersionTextView";
 
-    private static final String KEY_LINEAGE_VERSION_PROP = "ro.modversion";
+    private static final String KEY_LINEAGE_VERSION_PROP = "ro.crdroid.build.version";
 
     private long[] mHits = new long[3];
 
