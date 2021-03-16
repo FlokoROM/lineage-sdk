@@ -3805,6 +3805,18 @@ public final class LineageSettings {
         public static final String POWER_NOTIFICATIONS_RINGTONE = "power_notifications_ringtone";
 
         /**
+         * URI for charger notification sounds
+         * @hide
+         */
+        public static final String BATTERY_FULLY_CHARGED_RINGTONE = "battery_fully_charged_ringtone";
+
+        /**
+         * Whether to vibrate when charger power is connected/disconnected
+         * @hide
+         */
+        public static final String BATTERY_FULLY_CHARGED_VIBRATE = "battery_fully_charged_vibrate";
+
+        /**
          * @hide
          */
         public static final String ZEN_DISABLE_DUCKING_DURING_MEDIA_PLAYBACK =
